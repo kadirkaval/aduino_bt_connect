@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:background="@color/black"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".7"
+            >
+
+            <Spinner
+                android:id="@+id/idMASpinnerBTPairedDevices"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="SpeakableTextPresentCheck">
+
+            </Spinner>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".3"
+            >
+
+            <Button
+                android:id="@+id/idMAButtonConnect"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:backgroundTint="@color/BT_BLUE"
+                android:text="Connect"
+                android:textColor="#ffffff"
+                tools:ignore="TextContrastCheck">
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="73"
+        android:background="@color/black"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/idMATextViewReceivedMessage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ReceivedMessage"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            >
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:weightSum="3"
+        android:background="@color/black"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="100">
+            <Button
+                android:id="@+id/idMAButtonStoreData1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="M1"
+                android:textColor="@color/white"
+                android:layout_weight="20"
+                android:backgroundTint="@color/BT_BLUE">
+
+            </Button>
+            <Button
+                android:id="@+id/idMAButtonStoreData2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="M2"
+                android:textColor="@color/white"
+                android:layout_weight="20"
+                android:backgroundTint="@color/BT_BLUE">
+
+            </Button>
+            <Button
+                android:id="@+id/idMAButtonStoreData3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="M3"
+                android:textColor="@color/white"
+                android:layout_weight="20"
+                android:backgroundTint="@color/BT_BLUE">
+
+            </Button>
+            <Button
+                android:id="@+id/idMAButtonStoreData4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="M4"
+                android:textColor="@color/white"
+                android:layout_weight="20"
+                android:backgroundTint="@color/BT_BLUE">
+
+            </Button>
+            <Button
+                android:id="@+id/idMAButtonStoreData5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="M5"
+                android:textColor="@color/white"
+                android:layout_weight="20"
+                android:backgroundTint="@color/BT_BLUE">
+
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="100"
+            >
+            <Button
+                android:id="@+id/idMAButtonStoreData6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="M6"
+                android:textColor="@color/white"
+                android:layout_weight="20"
+                android:backgroundTint="@color/BT_BLUE">
+
+            </Button>
+            <Button
+                android:id="@+id/idMAButtonStoreData7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="M7"
+                android:textColor="@color/white"
+                android:layout_weight="20"
+                android:backgroundTint="@color/BT_BLUE">
+
+            </Button>
+            <Button
+                android:id="@+id/idMAButtonStoreData8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="M8"
+                android:textColor="@color/white"
+                android:layout_weight="20"
+                android:backgroundTint="@color/BT_BLUE">
+
+            </Button>
+            <Button
+                android:id="@+id/idMAButtonStoreData9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="M9"
+                android:textColor="@color/white"
+                android:layout_weight="20"
+                android:backgroundTint="@color/BT_BLUE">
+
+            </Button>
+            <Button
+                android:id="@+id/idMAButtonStoreData10"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="M10"
+                android:textColor="@color/white"
+                android:layout_weight="20"
+                android:backgroundTint="@color/BT_BLUE">
+
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".7">
+                <EditText
+                    android:id="@+id/idMAEditTextSendMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    >
+
+                </EditText>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3">
+                <Button
+                    android:id="@+id/idMAButtonSendData"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/send"
+                    android:backgroundTint="@color/BT_BLUE"
+                    android:textColor="@color/white">
+                </Button>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

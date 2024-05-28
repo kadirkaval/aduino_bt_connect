@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">aduino_bt_connect</string>
+    <string name="send">SEND</string>
+</resources>
